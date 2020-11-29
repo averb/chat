@@ -1,0 +1,12 @@
+.chat-body {
+  padding: 10px;
+  background-color: #fff;
+  height: 500px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-body__messages {
+  margin-top: auto;
+}

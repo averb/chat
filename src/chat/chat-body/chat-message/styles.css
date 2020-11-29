@@ -1,0 +1,28 @@
+.chat-message {
+  background-color: #e1f1f8;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: auto;
+  flex-shrink: 0;
+  max-width: 80%;
+}
+
+.chat-message--interlocutor {
+  background-color: #f2f2f2;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.chat-message__text {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.chat-message__date {
+  display: block;
+  font-size: 12px;
+  color: #979797;
+}
